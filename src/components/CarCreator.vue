@@ -4,8 +4,7 @@
 
 <script>
 export default {
-    name: 'CarDetails',
-    //props: car = {}
+
 }
 </script>
 
