@@ -8,7 +8,7 @@
         </tr>
     </thead>
     <tr v-for="(c, index) in cars" :key="index">
-        <td>{{ index }}</td>
+        <td><RouterLink :to="`/details/${c.carId}`">{{ index }}</RouterLink></td>
         <td>{{ c.brand }}</td>
         <td>{{ c.model }}</td>
     </tr>

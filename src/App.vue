@@ -13,7 +13,7 @@ import CarList from './components/CarList.vue';
     <h1 class="display-3">Car Saver</h1>
   </div>
 
-  <CarList />
+  <RouterView />
 </template>
 
 <style scoped>
