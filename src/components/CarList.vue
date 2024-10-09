@@ -1,4 +1,10 @@
 <template>
+  <div class="center">
+    <RouterLink :to="`/create`">
+        <button class="btn btn-primary">Ajouter une voiture</button>
+    </RouterLink>
+  </div>
+  <br>
   <table class="table table-striped table-bordered w-auto">
     <thead class="thead-light">
         <tr>
@@ -42,5 +48,10 @@ export default {
    text-align: center;
    margin: auto;
    width: 50% !important; 
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
 </style>
